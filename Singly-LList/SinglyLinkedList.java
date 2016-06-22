@@ -18,19 +18,6 @@ package linkedlist;
 
 public class SinglyLinkedList<E> implements LList<E> {
 
-    /**
-     * This represents a node in a singly linked list. This node stores data
-     * along with having a pointer to the next node in the list
-     *
-     * @param <D>
-     *            This is the type of object that this class will store
-     * @author Mark Wiggans (mmw125)
-     * @author Christina Olk (colk)
-     * @author maellis1
-     * @version 4/14/2015
-     * @version 9.4.15
-     * @version 10.29.15
-     */
     public static class Node<T> {
 
         // The data element stored in the node.
